@@ -1,7 +1,5 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 
-import assert from 'assert';
-
 Given('I go to {string}', url => {
     cy.visit(url);
 });
