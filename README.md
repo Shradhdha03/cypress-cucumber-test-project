@@ -21,15 +21,17 @@ Step 1:  open new terminal window
 
 Step 2:  `cd .\calculator_app\`
 
-Step 3:  `npm run build`
+Step 3: `npm install`
 
-Step 4:  `npm test`
+Step 4:  `npm run build`
 
-Step 5:  should run 1 passing test
+Step 5:  `npm test`
 
-Step 6:  `npm start`
+Step 6:  should run 1 passing test
 
-Step 7:  Visit http://localhost:3000
+Step 7:  `npm start`
+
+Step 8:  Visit http://localhost:3000
 
 
 
