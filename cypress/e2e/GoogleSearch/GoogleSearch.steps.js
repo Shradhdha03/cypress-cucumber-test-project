@@ -8,8 +8,6 @@ When('I search for {string}', keyword => {
     cy.get('input[name=q]').type(keyword + '{enter}');
 });
 
-Then('I can see {string}', search_result => {
-    cy.get('#search a').invoke('attr', 'href').then((href) => {
-        expect(href).to.eq(search_result);
-    })
+Then('I can see page title {string}', search_result => {
+    cy.title().should('contain', search_result);
 });

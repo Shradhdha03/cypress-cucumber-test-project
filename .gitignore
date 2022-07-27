@@ -2,3 +2,5 @@ node_modules
 cypress/videos
 awnser
 calculator
+cypress/screenshots
+EXERCISE_DEMO.md

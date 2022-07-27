@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "acceptance-test": "cypress run --browser chrome",
-    "end-to-end-test": "cypress run --browser chrome --headed "
+    "acceptance-test": "cypress run",
+    "end-to-end-test": "cypress open --browser chrome --e2e"
   },
   "author": "",
   "license": "ISC",
